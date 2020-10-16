@@ -1,2 +1,6 @@
 = University Practical Exam Scheduling System
 Sanchith Hegde; Prajith V Nair
+
+== Licensing
+
+Dual licensed under Apache 2.0 or MIT at your option.

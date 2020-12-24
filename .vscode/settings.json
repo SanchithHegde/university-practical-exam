@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.renderFinalNewline": true,
+  "editor.trimAutoWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "asciidoc.use_asciidoctor_js": false,
+
+  "python.formatting.provider": "black",
+
+  "[python]": {
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+}

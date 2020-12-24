@@ -1,0 +1,131 @@
+= Database Schema
+:toc: macro
+:table-caption!:
+
+toc::[]
+<<<
+
+== Relations
+
+=== College
+
+Contains information about all colleges that are affiliated to the university.
+
+.College
+[%autowidth.stretch, cols="4*^.^m"]
+|===
+| [.pk]#code# | name | address | region
+|===
+
+==== Key
+
+* `code`: Primary key.
+
+=== Department
+
+Contains information about all departments.
+
+.Department
+[%autowidth.stretch, cols="2*^.^m"]
+|===
+| [.pk]#code# | name
+|===
+
+==== Keys
+
+* `code`: Primary key.
+
+=== Teacher
+
+Contains information about all teachers under all colleges affiliated to the university.
+
+.Teacher
+[%autowidth.stretch, cols="9*^.^m"]
+|===
+| [.pk]#id# | name | [.fk]#college# | [.fk]#department# | years_experience
+|===
+
+==== Keys
+
+* `id`: Primary key.
+* `college`: Foreign key. References `code` attribute in `College` relation.
+* `department`: Foreign key. References `id` attribute in `Department` relation.
+
+=== Student
+
+Contains information about all students enrolled in all colleges affiliated to the university.
+
+.Student
+[%autowidth.stretch, cols="9*^.^m"]
+|===
+| [.pk]#usn# | name | admission_year | [.fk]#college# | [.fk]#department# | semester
+|===
+
+==== Keys
+
+* `usn`: Primary key.
+* `college`: Foreign key. References `code` attribute in `College` relation.
+* `department`: Foreign key. References `id` attribute in `Department` relation.
+
+=== Course
+
+Contains information about all courses offered by the university.
+
+.Course
+[%autowidth.stretch, cols="6*^.^m"]
+|===
+| [.pk]#code# | name | [.fk]#department# | semester | type | credits
+|===
+
+==== Keys
+
+* `code`: Primary key.
+* `department`: Foreign key. References `id` attribute in `Department` relation.
+
+=== Lab
+
+Contains information about all labs in all colleges affiliated to the university.
+
+.Lab
+[%autowidth.stretch, cols="4*^.^m"]
+|===
+| [.pk]#id# | [.pk.fk]#college# | [.fk]#department# | capacity
+|===
+
+==== Keys
+
+* `{id, college}`: Composite primary key.
+* `college`: Foreign key. References `code` attribute in `College` relation.
+* `department`: Foreign key. References `id` attribute in `Department` relation.
+
+=== College Has Department
+
+Contains information about all departments present in all colleges affiliated to the university.
+
+.CollegeHasDepartment
+[%autowidth.stretch, cols="3*^.^m"]
+|===
+| [.pk.fk]#college# | [.pk.fk]#department#
+|===
+
+==== Keys
+
+* `{college, department}`: Composite primary key.
+* `college`: Foreign key. References `code` attribute in `College` relation.
+* `department`: Foreign key. References `id` attribute in `Department` relation.
+
+=== Course Offering
+
+Contains information about the courses offered in all colleges affiliated to the university.
+
+.CourseOffering
+[%autowidth.stretch, cols="3*^.^m"]
+|===
+| [.pk.fk]#course# | [.pk.fk]#teacher#
+|===
+
+==== Keys
+
+* `{course, teacher}`: Composite primary key.
+* `course`: Foreign key. References `code` attribute in `Course` relation.
+* `teacher`: Foreign key. References `id` attribute of `Teacher` relation.

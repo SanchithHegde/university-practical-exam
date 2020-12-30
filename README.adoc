@@ -1,10 +1,8 @@
 = University Practical Exam Scheduling System
 Sanchith Hegde; Prajith V Nair
-:toc: macro
+:toc: preamble
 
 University practical examination scheduling system, as an academic project, implemented in Python.
-
-toc::[]
 
 == To-Do
 

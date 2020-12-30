@@ -1,0 +1,12 @@
+if [[ -f Pipfile ]]; then
+  layout pipenv
+fi
+
+export DATABASE_NAME="db_name"
+export DATABASE_USER="db_user"
+export DATABASE_PASSWORD="db_password"
+export DATABASE_HOST=""
+export DATABASE_PORT=""
+export SECRET_KEY="m2)qp1lqgd7)30e-k-1=l8tol9%!z&g1rug*ka7hpqtw=cnw8&"
+
+PATH_add "js_toolchain/node_modules/.bin"

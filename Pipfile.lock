@@ -239,11 +239,11 @@
         },
         "pygad": {
             "hashes": [
-                "sha256:33bdd62738b1824b08634c5789cf0483fce3b716e6046e3a2635a5ab05dcfa73",
-                "sha256:38aba131be3bccbeca5aa4b0fc052a390bba933dfafa7f58e1014ab81b9c6cfa"
+                "sha256:1f60b29b1d6c04bad4eb0fc0c08b2505bbbf04f1adf8318c5a44905cfd1b3e31",
+                "sha256:b1957ffac9de3d05b6e97b195b1bc0bca426c3b7b77210d140a1a9fc6f485071"
             ],
             "index": "pypi",
-            "version": "==2.10.0"
+            "version": "==2.10.1"
         },
         "pyparsing": {
             "hashes": [

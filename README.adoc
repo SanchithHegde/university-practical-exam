@@ -4,13 +4,15 @@ Sanchith Hegde; Prajith V Nair
 
 University practical examination scheduling system, as an academic project, implemented in Python.
 
+[discrete]
 == To-Do
 
 * [ ] Update documentation.
 ** [x] Instructions for installing dependencies (both Python and JavaScript).
 ** [x] Instructions for setting up database.
 ** [x] Environment variables that are necessary to run the application.
-** [ ] Migrations.
+** [x] Migrations.
+** [x] Running the application.
 ** [ ] Screenshots.
 
 == Installation
@@ -105,6 +107,44 @@ export SECRET_KEY="m2)qp1lqgd7)30e-k-1=l8tol9%!z&g1rug*ka7hpqtw=cnw8&"
 Alternatively, loading the Python virtual environment and setting the environment variables can be automated with `direnv`.
 A sample `.envrc` file has been included as `.envrc.sample`.
 Make necessary changes to the file and rename it to `.envrc` for `direnv` to track the file.
+
+=== Database Migrations
+
+Run Django migrations by running the following command in the `practical_exam` directory:
+
+[source, shell]
+--
+python3 manage.py migrate
+--
+
+=== Create a Django Super User
+
+The super user can be used to access the Django admin interface and modify entries in the database.
+Create a super user by running the following command in the `practical_exam` directory and answer the prompts that follow:
+
+[source, shell]
+--
+python3 manage.py createsuperuser
+--
+
+== Running the Application
+
+* Switch to the `practical_exam` directory.
++
+[source, shell]
+--
+cd practical_exam
+--
+
+* Start the Django server.
++
+[source, shell]
+--
+python3 manage.py runserver
+--
+
+* Visit `http://127.0.0.1:8000/admin` in your browser to enter/modify data in the database.
+* Visit `http://127.0.0.1:8000/` to view the application.
 
 == Licensing
 

@@ -4,17 +4,6 @@ Sanchith Hegde; Prajith V Nair
 
 University practical examination scheduling system, as an academic project, implemented in Python.
 
-[discrete]
-== To-Do
-
-* [ ] Update documentation.
-** [x] Instructions for installing dependencies (both Python and JavaScript).
-** [x] Instructions for setting up database.
-** [x] Environment variables that are necessary to run the application.
-** [x] Migrations.
-** [x] Running the application.
-** [ ] Screenshots.
-
 == Installation
 
 The following instructions are primarily aimed at Linux systems.
@@ -145,6 +134,23 @@ python3 manage.py runserver
 
 * Visit `http://127.0.0.1:8000/admin` in your browser to enter/modify data in the database.
 * Visit `http://127.0.0.1:8000/` to view the application.
+
+== Screenshots
+
+.Scheduled Courses
+image::./img/scheduled_courses.png[Scheduled Courses]
+
+.Department-wise Timetable
+image::./img/view_department.png[Department-wise Timetable]
+
+.Semester-wise Timetable
+image::./img/view_semester.png[Semester-wise Timetable]
+
+.Teacher-wise Timetable
+image::./img/view_teacher.png[Teacher-wise Timetable]
+
+.Seating Arrangement
+image::./img/view_seating.png[Seating Arrangement]
 
 == Licensing
 

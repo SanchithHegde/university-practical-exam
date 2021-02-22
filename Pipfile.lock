@@ -351,11 +351,11 @@
         },
         "data-science-types": {
             "hashes": [
-                "sha256:065475a4c5ee9b5f30883e65cdcffdd1b09a9d2e203857af25d21ffb336fece0",
-                "sha256:5b6bb2ca4cb6b8c467c799382e12156816f38122522bdaafd882d5a3828c7345"
+                "sha256:8096b9a35a8a187bf9a122b4707c97de841d810744690ee2a4ac30c6462e0d16",
+                "sha256:bca319abc0e53a0316f9fcb887937e942477cb9e5fc63c8581e0b0438903b977"
             ],
             "index": "pypi",
-            "version": "==0.2.22"
+            "version": "==0.2.23"
         },
         "django": {
             "hashes": [

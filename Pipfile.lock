@@ -62,11 +62,11 @@
         },
         "django-pgtrigger": {
             "hashes": [
-                "sha256:a90f5782509a15e308c1384bec74330e5aba34fb3a36e7a40fbedcffe9dee94d",
-                "sha256:e7bfb648b8b83b09570454e6dd4380f21938c8820d9f10d39416936401e244a5"
+                "sha256:c1336654561fcbf480127d496432711037eb513cdc61fd48e2fc35125a7abfeb",
+                "sha256:f131e4aa537b2f8859915e9bd1b0b9b1a47922c8963eceb0c032020042aff7ed"
             ],
             "index": "pypi",
-            "version": "==2.2.0"
+            "version": "==2.2.1"
         },
         "django-widget-tweaks": {
             "hashes": [

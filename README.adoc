@@ -138,27 +138,27 @@ python3 manage.py runserver
 
 == Screenshots
 
-* ++++++
+* {blank}
 +
 .Scheduled Courses
 image::./img/scheduled_courses.png[Scheduled Courses]
 
-* ++++++
+* {blank}
 +
 .Department-wise Timetable
 image::./img/view_department.png[Department-wise Timetable]
 
-* ++++++
+* {blank}
 +
 .Semester-wise Timetable
 image::./img/view_semester.png[Semester-wise Timetable]
 
-* ++++++
+* {blank}
 +
 .Teacher-wise Timetable
 image::./img/view_teacher.png[Teacher-wise Timetable]
 
-* ++++++
+* {blank}
 +
 .Seating Arrangement
 image::./img/view_seating.png[Seating Arrangement]

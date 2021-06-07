@@ -55,10 +55,10 @@
         },
         "django-pgconnection": {
             "hashes": [
-                "sha256:a503b527a2e03270868ae48a53ec452d5da9a233cd7aaa8e8cef0f2d20adb4bf",
-                "sha256:c7c46cd8d22d5dfe6a904fab6cb003471905d308bc79a54960a13cfbd3ca60db"
+                "sha256:1c012e789cd65bee1d514de6a4b3f90c888e599c3c2be195e7bb3627923bb7f3",
+                "sha256:51ea5943faaa4aa4a2f953586b925ecddec852b009c004ee0b5de93d5ae162f7"
             ],
-            "version": "==1.0.1"
+            "version": "==1.0.2"
         },
         "django-pgtrigger": {
             "hashes": [
@@ -342,11 +342,11 @@
         },
         "black": {
             "hashes": [
-                "sha256:23695358dbcb3deafe7f0a3ad89feee5999a46be5fec21f4f1d108be0bcdb3b1",
-                "sha256:8a60071a0043876a4ae96e6c69bd3a127dad2c1ca7c8083573eb82f92705d008"
+                "sha256:1fc0e0a2c8ae7d269dfcf0c60a89afa299664f3e811395d40b1922dff8f854b5",
+                "sha256:e5cf21ebdffc7a9b29d73912b6a6a9a4df4ce70220d523c21647da2eae0751ef"
             ],
             "index": "pypi",
-            "version": "==21.5b1"
+            "version": "==21.5b2"
         },
         "click": {
             "hashes": [

@@ -55,10 +55,10 @@
         },
         "django-pgconnection": {
             "hashes": [
-                "sha256:a503b527a2e03270868ae48a53ec452d5da9a233cd7aaa8e8cef0f2d20adb4bf",
-                "sha256:c7c46cd8d22d5dfe6a904fab6cb003471905d308bc79a54960a13cfbd3ca60db"
+                "sha256:1c012e789cd65bee1d514de6a4b3f90c888e599c3c2be195e7bb3627923bb7f3",
+                "sha256:51ea5943faaa4aa4a2f953586b925ecddec852b009c004ee0b5de93d5ae162f7"
             ],
-            "version": "==1.0.1"
+            "version": "==1.0.2"
         },
         "django-pgtrigger": {
             "hashes": [
@@ -229,11 +229,11 @@
         },
         "pygad": {
             "hashes": [
-                "sha256:d073cadcba2ecd781c3fafe711676221944171b6cdee879fcd082160524b37c0",
-                "sha256:f1b6e32ac4d787a345d165e58394f58e1ca75bb8b85ac19bda7d349d73713c65"
+                "sha256:0e1b2c446f48a8326d945c8d8ab175b00e4c5d7a2a6b7bcee349d5fedb3fa682",
+                "sha256:c16fbc18d4bb31b774208f1804ea1e7ad3cd5bae25be51946249a75a3520ce54"
             ],
             "index": "pypi",
-            "version": "==2.14.2"
+            "version": "==2.14.3"
         },
         "pyparsing": {
             "hashes": [

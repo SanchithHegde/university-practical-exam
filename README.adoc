@@ -136,6 +136,36 @@ python3 manage.py runserver
 * Visit `http://127.0.0.1:8000/admin` in your browser to enter/modify data in the database.
 * Visit `http://127.0.0.1:8000/` to view the application.
 
+== Live-Reload
+
+You can optionally enable live-reloading the server whenever any of the source files are modified.
+This is suitable for development.
+
+To enable live-reloading:
+
+* Install dependencies:
++
+[source, shell]
+--
+$ poetry install --extras "live_reload"
+--
+
+* Set `LIVE_RELOAD` to `True` in link:practical_exam/practical_exam/settings.py[`practical_exam/practical_exam/settings.py`].
+
+* Start the live-reload server:
++
+[source, shell]
+--
+$ python3 manage.py livereload
+--
+
+* Start the Django server:
++
+[source, shell]
+--
+$ python3 manage.py runserver
+--
+
 == Screenshots
 
 * {blank}

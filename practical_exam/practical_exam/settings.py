@@ -26,13 +26,16 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# Enable reloading of server when source files are modified.
+# Suitable only for development.
+LIVE_RELOAD = False
+
 ALLOWED_HOSTS = []
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    "livereload",
     "widget_tweaks",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -52,8 +55,12 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "livereload.middleware.LiveReloadScript",
 ]
+
+if LIVE_RELOAD == True:
+    INSTALLED_APPS.insert(0, "livereload")
+
+    MIDDLEWARE.append("livereload.middleware.LiveReloadScript")
 
 ROOT_URLCONF = "practical_exam.urls"
 

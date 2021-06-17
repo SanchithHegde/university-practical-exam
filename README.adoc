@@ -12,7 +12,7 @@ You will have to make necessary changes to the commands to be able to run them o
 
 === Prerequisites
 
-You will need to have Python, https://pipenv.pypa.io/en/latest/install/#installing-pipenv[pipenv], https://yarnpkg.com/getting-started/install[yarn] and https://www.postgresql.org/download/[PostgreSQL] installed before proceeding further.
+You will need to have Python, https://python-poetry.org/docs/[poetry], https://yarnpkg.com/getting-started/install[yarn] and https://www.postgresql.org/download/[PostgreSQL] installed before proceeding further.
 Optionally, you can also install https://direnv.net/docs/installation.html[direnv] to automatically load environment variables and activate the Python environment when you switch to the project directory.
 
 Clone the repository and switch to the project directory.
@@ -29,7 +29,7 @@ $ cd university-practical-exam
 +
 [source, shell]
 --
-$ pipenv install
+$ poetry install
 --
 
 * Install JavaScript dependencies.

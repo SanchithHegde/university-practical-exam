@@ -254,7 +254,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "pygad"
-version = "2.14.3"
+version = "2.16.0"
 description = "PyGAD: A Python 3 Library for Building the Genetic Algorithm and Training Machine Learning Algoithms (Keras & PyTorch)."
 category = "main"
 optional = false
@@ -361,7 +361,7 @@ live_reload = ["django-livereload-server"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "73618f211b3cb324fc7dcf7e78905eceb7cf82b15bc20ba33f4615e43dd4a2b8"
+content-hash = "b8e2b40a4f812625d488e029cb8d931e186cb3730c8c10d40437b982fa0f8f38"
 
 [metadata.files]
 appdirs = [
@@ -567,6 +567,7 @@ pillow = [
     {file = "Pillow-8.2.0-pp37-pypy37_pp73-manylinux2010_i686.whl", hash = "sha256:aac00e4bc94d1b7813fe882c28990c1bc2f9d0e1aa765a5f2b516e8a6a16a9e4"},
     {file = "Pillow-8.2.0-pp37-pypy37_pp73-manylinux2010_x86_64.whl", hash = "sha256:22fd0f42ad15dfdde6c581347eaa4adb9a6fc4b865f90b23378aa7914895e120"},
     {file = "Pillow-8.2.0-pp37-pypy37_pp73-win32.whl", hash = "sha256:e98eca29a05913e82177b3ba3d198b1728e164869c613d76d0de4bde6768a50e"},
+    {file = "Pillow-8.2.0-pp37-pypy37_pp73-win_amd64.whl", hash = "sha256:8b56553c0345ad6dcb2e9b433ae47d67f95fc23fe28a0bde15a120f25257e291"},
     {file = "Pillow-8.2.0.tar.gz", hash = "sha256:a787ab10d7bb5494e5f76536ac460741788f1fbce851068d73a87ca7c35fc3e1"},
 ]
 psycopg2 = [
@@ -581,8 +582,8 @@ psycopg2 = [
     {file = "psycopg2-2.9.1.tar.gz", hash = "sha256:de5303a6f1d0a7a34b9d40e4d3bef684ccc44a49bbe3eb85e3c0bffb4a131b7c"},
 ]
 pygad = [
-    {file = "pygad-2.14.3-py3-none-any.whl", hash = "sha256:c16fbc18d4bb31b774208f1804ea1e7ad3cd5bae25be51946249a75a3520ce54"},
-    {file = "pygad-2.14.3.tar.gz", hash = "sha256:0e1b2c446f48a8326d945c8d8ab175b00e4c5d7a2a6b7bcee349d5fedb3fa682"},
+    {file = "pygad-2.16.0-py3-none-any.whl", hash = "sha256:bbd774f4dd25fcb690bcd143ea9c9ab08f5ab95280fd549b13d72fe66d47adcc"},
+    {file = "pygad-2.16.0.tar.gz", hash = "sha256:2ea4998b3762ece9ddf2dd17460c7993d521a5292716599d7df974d728454a51"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},

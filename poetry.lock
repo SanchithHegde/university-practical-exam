@@ -349,7 +349,7 @@ python-versions = ">= 3.5"
 
 [[package]]
 name = "types-python-dateutil"
-version = "0.1.4"
+version = "0.1.6"
 description = "Typing stubs for python-dateutil"
 category = "dev"
 optional = false
@@ -369,7 +369,7 @@ live_reload = ["django-livereload-server"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "0a192b64ac71a0b9ae2987ef54e7e0133aadaf92b5621c112ad905c849d4a34d"
+content-hash = "53ea0c7259d5e7520abc96e80b6772bb535814743c4b5745885e79720ee6482d"
 
 [metadata.files]
 appdirs = [
@@ -716,8 +716,8 @@ tornado = [
     {file = "tornado-6.1.tar.gz", hash = "sha256:33c6e81d7bd55b468d2e793517c909b139960b6c790a60b7991b9b6b76fb9791"},
 ]
 types-python-dateutil = [
-    {file = "types-python-dateutil-0.1.4.tar.gz", hash = "sha256:e6486ca27b6dde73e0ec079a9e1b03e208766e6bc7f1e08964a7e9104a5c7d7a"},
-    {file = "types_python_dateutil-0.1.4-py2.py3-none-any.whl", hash = "sha256:39bfe0bde61fc673b8fa28167bd78622d976210f791971b9f3e10877cbf119a4"},
+    {file = "types-python-dateutil-0.1.6.tar.gz", hash = "sha256:b02de39a54ce6e3fadfdc7dba77d8519fbfb6ca049920e190b5f89c74d5f9de6"},
+    {file = "types_python_dateutil-0.1.6-py3-none-any.whl", hash = "sha256:5b6241ea9fca2d8878cc152017d9524da62a7a856b98e31006e68b02aab47442"},
 ]
 typing-extensions = [
     {file = "typing_extensions-3.10.0.0-py2-none-any.whl", hash = "sha256:0ac0f89795dd19de6b97debb0c6af1c70987fd80a2d62d1958f7e56fcc31b497"},

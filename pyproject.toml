@@ -8,7 +8,7 @@ license     = "MIT OR Apache-2.0"
 [tool.poetry.dependencies]
 python                   = "^3.9"
 Django                   = "^3.2.6"
-django-pgtrigger         = "^2.3.2"
+django-pgtrigger         = "^2.4.0"
 django-widget-tweaks     = "^1.4.8"
 numpy                    = "^1.21.1"
 psycopg2                 = "^2.8.6"

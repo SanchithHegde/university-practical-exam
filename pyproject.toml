@@ -12,7 +12,7 @@ django-pgtrigger         = "^2.4.0"
 django-widget-tweaks     = "^1.4.8"
 numpy                    = "^1.21.1"
 psycopg2                 = "^2.8.6"
-pygad                    = "^2.16.0"
+pygad                    = "^2.16.1"
 django-livereload-server = { version = "^0.3.2", optional = true }
 
 [tool.poetry.dev-dependencies]

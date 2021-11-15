@@ -11,7 +11,7 @@ Django                   = "^3.2.9"
 django-pgtrigger         = "^2.4.0"
 django-widget-tweaks     = "^1.4.9"
 numpy                    = "^1.21.1"
-psycopg2                 = "^2.8.6"
+psycopg2                 = "^2.9.2"
 pygad                    = "^2.16.1"
 django-livereload-server = { version = "^0.3.2", optional = true }
 

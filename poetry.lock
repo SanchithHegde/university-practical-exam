@@ -99,7 +99,7 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 name = "django-livereload-server"
-version = "0.3.2"
+version = "0.4"
 description = "LiveReload functionality integrated with your Django development environment"
 category = "main"
 optional = true
@@ -388,7 +388,7 @@ live_reload = ["django-livereload-server"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "4b60be782bfc645410f0b5d9fc50faa02d9f3e29cb529a8c7ed97fe8ba811c44"
+content-hash = "037e09b3b043f7e767ff22ea76f5de94a7b43f77e729f520b9981af298be5f15"
 
 [metadata.files]
 asgiref = [
@@ -421,7 +421,8 @@ django = [
     {file = "Django-4.0.tar.gz", hash = "sha256:d5a8a14da819a8b9237ee4d8c78dfe056ff6e8a7511987be627192225113ee75"},
 ]
 django-livereload-server = [
-    {file = "django-livereload-server-0.3.2.tar.gz", hash = "sha256:6c8da1cb356d9a7fd044d0a50342574aad168522d5d8d25bbdc4ddd9fd196eab"},
+    {file = "django-livereload-server-0.4.tar.gz", hash = "sha256:60ed030085ca53671d25704b10ec7aa3cc94a16da437b727a8dcce42471b4c65"},
+    {file = "django_livereload_server-0.4-py2.py3-none-any.whl", hash = "sha256:136c231e7ad3ba7a4db65426632dfa9b964ac04e8fa5f3808166447f016a4a91"},
 ]
 django-pgconnection = [
     {file = "django-pgconnection-1.0.2.tar.gz", hash = "sha256:1c012e789cd65bee1d514de6a4b3f90c888e599c3c2be195e7bb3627923bb7f3"},

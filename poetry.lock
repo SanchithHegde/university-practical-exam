@@ -261,7 +261,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "pygad"
-version = "2.16.1"
+version = "2.16.3"
 description = "PyGAD: A Python 3 Library for Building the Genetic Algorithm and Training Machine Learning Algoithms (Keras & PyTorch)."
 category = "main"
 optional = false
@@ -384,7 +384,7 @@ live_reload = ["django-livereload-server"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "220f717604c9a47177f03c1e3b08d86099a04da2e884da63411bf90dc5968c1a"
+content-hash = "c5a59d038074cb79531bcb70ee17e8362167e76f02047db7882d5ff3c8fec0de"
 
 [metadata.files]
 asgiref = [
@@ -636,8 +636,8 @@ psycopg2 = [
     {file = "psycopg2-2.9.3.tar.gz", hash = "sha256:8e841d1bf3434da985cc5ef13e6f75c8981ced601fd70cc6bf33351b91562981"},
 ]
 pygad = [
-    {file = "pygad-2.16.1-py3-none-any.whl", hash = "sha256:312f0e3cbfb67cca7a34fc871377828438cc2e30714e7d99d41ffafc81d9f039"},
-    {file = "pygad-2.16.1.tar.gz", hash = "sha256:bfb0be6eaf3a5a94222f657f94bbc02603b7fdde3035cb0affce78ef9d2620c6"},
+    {file = "pygad-2.16.3-py3-none-any.whl", hash = "sha256:993de484fc33646c90ef22597da3bdf1c531ee76484b0653f8409071e35e6ff1"},
+    {file = "pygad-2.16.3.tar.gz", hash = "sha256:db8322bcdfc41f3553f77f1ac099d07f7a89f31bf87c0f23bd5fb4a5b7c1bbf4"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},

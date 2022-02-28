@@ -120,11 +120,11 @@ django = ">=2"
 
 [[package]]
 name = "django-pgtrigger"
-version = "2.4.0"
+version = "2.4.1"
 description = "Postgres trigger support integrated with Django models."
 category = "main"
 optional = false
-python-versions = ">=3.6.2,<4"
+python-versions = ">=3.7.0,<4"
 
 [package.dependencies]
 django = ">=2"
@@ -384,7 +384,7 @@ live_reload = ["django-livereload-server"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "9cdde198d9f510203b02aba76422297fd8ebca1d87928be38e589fd0826a3261"
+content-hash = "3709d7194d880a0e5643f643bfe3efd28da2e0295585643ee2b063fac366c629"
 
 [metadata.files]
 asgiref = [
@@ -446,8 +446,8 @@ django-pgconnection = [
     {file = "django_pgconnection-1.0.2-py3-none-any.whl", hash = "sha256:51ea5943faaa4aa4a2f953586b925ecddec852b009c004ee0b5de93d5ae162f7"},
 ]
 django-pgtrigger = [
-    {file = "django-pgtrigger-2.4.0.tar.gz", hash = "sha256:c3bd10a987d0b05f30425bd48a2218fe0b7d97f440d5bbc4b486c5338527e829"},
-    {file = "django_pgtrigger-2.4.0-py3-none-any.whl", hash = "sha256:4515739ade4e1889f86b8ea0ce6fd2be2ed144ed70fa213654935aac050ace8a"},
+    {file = "django-pgtrigger-2.4.1.tar.gz", hash = "sha256:0c370d1bb44361faf9948cec67a0a983885ba8e36da9416aad8fda3b69fea992"},
+    {file = "django_pgtrigger-2.4.1-py3-none-any.whl", hash = "sha256:24938353f60898a57bf7ca6371f2f565fc473f506781c32719bd1538115d637e"},
 ]
 django-stubs = [
     {file = "django-stubs-1.9.0.tar.gz", hash = "sha256:664843091636a917faf5256d028476559dc360fdef9050b6df87ab61b21607bf"},

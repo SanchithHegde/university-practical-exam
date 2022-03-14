@@ -10,7 +10,7 @@ python                   = "^3.9"
 Django                   = "^4.0"
 django-pgtrigger         = "^2.4.1"
 django-widget-tweaks     = "^1.4.12"
-numpy                    = "^1.22.2"
+numpy                    = "^1.22.3"
 psycopg2                 = "^2.9.3"
 pygad                    = "^2.16.3"
 django-livereload-server = { version = "^0.4", optional = true }

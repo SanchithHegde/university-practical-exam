@@ -132,7 +132,7 @@ django-pgconnection = ">=1.0.1"
 
 [[package]]
 name = "django-stubs"
-version = "1.10.0"
+version = "1.10.1"
 description = "Mypy stubs for Django"
 category = "dev"
 optional = false
@@ -140,7 +140,7 @@ python-versions = ">=3.7"
 
 [package.dependencies]
 django = "*"
-django-stubs-ext = ">=0.3.0"
+django-stubs-ext = ">=0.4.0"
 mypy = ">=0.930,<0.950"
 tomli = "*"
 types-pytz = "*"
@@ -149,7 +149,7 @@ typing-extensions = "*"
 
 [[package]]
 name = "django-stubs-ext"
-version = "0.3.0"
+version = "0.4.0"
 description = "Monkey-patching and extensions for django-stubs"
 category = "dev"
 optional = false
@@ -157,6 +157,7 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 django = "*"
+typing-extensions = "*"
 
 [[package]]
 name = "django-widget-tweaks"
@@ -377,7 +378,7 @@ live_reload = ["django-livereload-server"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "bbde29263c1fd964de74743d94091d3db54b2d5f57482b977058cd1135c03d33"
+content-hash = "519b7e7052a11d0a5998baa2587be01dc5326ee04dcf10937e77821bae6822c5"
 
 [metadata.files]
 asgiref = [
@@ -443,12 +444,12 @@ django-pgtrigger = [
     {file = "django_pgtrigger-2.4.1-py3-none-any.whl", hash = "sha256:24938353f60898a57bf7ca6371f2f565fc473f506781c32719bd1538115d637e"},
 ]
 django-stubs = [
-    {file = "django-stubs-1.10.0.tar.gz", hash = "sha256:81650b08f73126130231e528b844266ae531c1f96b7663d3b31b51155be740c5"},
-    {file = "django_stubs-1.10.0-py3-none-any.whl", hash = "sha256:f4b0655f6721d95ec3c6f3e7175eb123f4f19cfff2d9ea341e5c3c3bef54499a"},
+    {file = "django-stubs-1.10.1.tar.gz", hash = "sha256:2ec21fc14dba392156e0ec8438e1863c86ddb295f1c8d88eecd7e0e04977c843"},
+    {file = "django_stubs-1.10.1-py3-none-any.whl", hash = "sha256:dfffa933e3c7f5cae92c860fbd6cf4ae58c4f78eed93843612f863207c9e0e1a"},
 ]
 django-stubs-ext = [
-    {file = "django-stubs-ext-0.3.0.tar.gz", hash = "sha256:037d9ab39f15eb172d46a6dc9f066d097efe912695562b2c45debe06455c23cb"},
-    {file = "django_stubs_ext-0.3.0-py3-none-any.whl", hash = "sha256:1ba241655a62a6aadbc4c8e324a108557e76c116cfc9edd8c5c83eabf1fc4afa"},
+    {file = "django-stubs-ext-0.4.0.tar.gz", hash = "sha256:3104c4748c34bd741c310a3e6af90dffba46e41bccbe243896e38a708262876b"},
+    {file = "django_stubs_ext-0.4.0-py3-none-any.whl", hash = "sha256:901fc77b6338ea29fa381300ff598dd57d461a4882b756404e2aa7724f76fd7d"},
 ]
 django-widget-tweaks = [
     {file = "django-widget-tweaks-1.4.12.tar.gz", hash = "sha256:9bfc5c705684754a83cc81da328b39ad1b80f32bd0f4340e2a810cbab4b0c00e"},

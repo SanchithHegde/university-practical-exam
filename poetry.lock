@@ -334,7 +334,7 @@ python-versions = ">= 3.5"
 
 [[package]]
 name = "types-python-dateutil"
-version = "2.8.16"
+version = "2.8.17"
 description = "Typing stubs for python-dateutil"
 category = "dev"
 optional = false
@@ -378,7 +378,7 @@ live_reload = ["django-livereload-server"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "2b820de8cd96a7f7644e709988ccc670ab597d2ba6160b7d7e7e3337f7f72dca"
+content-hash = "eaaf19cb5778aeb6e369fbcab63f19528b57f60f30731d151fb2f9359c01da9d"
 
 [metadata.files]
 asgiref = [
@@ -707,8 +707,8 @@ tornado = [
     {file = "tornado-6.1.tar.gz", hash = "sha256:33c6e81d7bd55b468d2e793517c909b139960b6c790a60b7991b9b6b76fb9791"},
 ]
 types-python-dateutil = [
-    {file = "types-python-dateutil-2.8.16.tar.gz", hash = "sha256:3aaac4c138eb6b8ecbc2550996ec25d6e45b5d32887d1e693d0842ee2fa659d2"},
-    {file = "types_python_dateutil-2.8.16-py3-none-any.whl", hash = "sha256:0e7286436d049d2732ba2f01552f84c52184b955552359156fc8835c10714f2a"},
+    {file = "types-python-dateutil-2.8.17.tar.gz", hash = "sha256:6c54265a221681dd87f61df6743bd5eab060cf1b4086ff65c1a8fd763ed6370e"},
+    {file = "types_python_dateutil-2.8.17-py3-none-any.whl", hash = "sha256:0be7435b4d382d1cd00b8c55a8a90f4e515aaad8a96f8f0bc20c22df046792e5"},
 ]
 types-pytz = [
     {file = "types-pytz-2021.1.2.tar.gz", hash = "sha256:448828a06f2aaa840e57364d866c661645a045e532f817e4f10c8c3ab2b66651"},
